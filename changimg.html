@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Image on Click</title>
+  <script>
+    function changeImage() {
+      var image = document.getElementById('myImage');
+      image.src = 'newimage.jpg';
+    }
+  </script>
+</head>
+<body>
+  <h1>Click the image to change it</h1>
+  <img id="myImage" src="oldimage.jpg" onclick="changeImage()" alt="Image">
+</body>
+</html>
